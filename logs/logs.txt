@@ -1,0 +1,142 @@
+[19-10-2021 10:24:02] Programa iniciado... 
+[19-10-2021 10:24:09] Error: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}}], desiredCapabilities=Capabilities {acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}}}]
+[19-10-2021 10:25:14] Programa iniciado... 
+[19-10-2021 10:25:29] Cliente: 22299682000118 Verificado.
+[19-10-2021 10:25:36] Cliente: 56550596149 Verificado.
+[19-10-2021 10:25:46] Cliente: 15176215187 Verificado.
+[19-10-2021 10:25:48] Error: null
+[19-10-2021 10:47:52] Programa iniciado... 
+[19-10-2021 10:48:00] Error: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60524/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+[19-10-2021 10:48:40] Programa iniciado... 
+[19-10-2021 10:48:42] Error: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62473/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+[19-10-2021 10:49:44] Programa iniciado... 
+[19-10-2021 10:49:49] Error: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50801/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+[19-10-2021 10:51:11] Programa iniciado... 
+[19-10-2021 10:51:23] Error: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64157}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64157/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+[19-10-2021 10:54:38] Programa iniciado... 
+[19-10-2021 10:54:43] Error: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61617/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+[19-10-2021 10:58:34] Programa iniciado... 
+[19-10-2021 10:58:39] Error: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65133/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+[19-10-2021 11:00:52] Programa iniciado... 
+[19-10-2021 11:01:03] Error: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57109}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57109/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+[19-10-2021 18:00:20] Programa iniciado... 
+[19-10-2021 18:00:29] Error: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50970/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+[20-10-2021 17:26:48] Programa iniciado... 
+[20-10-2021 17:27:25] Programa finalizado.
+[20-10-2021 17:30:43] Programa iniciado... 
+[20-10-2021 17:31:20] Programa finalizado.
+[20-10-2021 17:36:02] Programa iniciado... 
+[20-10-2021 17:36:41] Programa finalizado.
+[20-10-2021 17:38:55] Programa iniciado... 
+[20-10-2021 17:39:09] Cadastro 22299682000118 npossui fatura pendente
+[20-10-2021 17:39:09] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a46b4194252dec4701954b6d13a1bd51, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60826/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a46b4194252dec4701954b6d13a1bd51
+[20-10-2021 17:39:35] Programa iniciado... 
+[20-10-2021 17:39:49] Cadastro 22299682000118 npossui fatura pendente
+[20-10-2021 17:39:49] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9224d68f4f7421e6cf7b16556c1aed39, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58418/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9224d68f4f7421e6cf7b16556c1aed39
+[20-10-2021 17:49:29] Programa iniciado... 
+[20-10-2021 17:49:46] Cliente: 22299682000118 Verificado.
+[20-10-2021 17:49:51] Cliente: 56550596149 Verificado.
+[20-10-2021 17:50:01] Cliente: 15176215187 Verificado.
+[20-10-2021 17:50:01] Programa finalizado.
+[20-10-2021 17:51:53] Programa iniciado... 
+[20-10-2021 17:52:10] Cliente: 22299682000118 Verificado.
+[20-10-2021 17:52:15] Cliente: 56550596149 Verificado.
+[20-10-2021 17:52:25] Cliente: 15176215187 Verificado.
+[20-10-2021 17:52:25] Programa finalizado.
+[20-10-2021 17:59:30] Programa iniciado... 
+[20-10-2021 17:59:45] Cliente: 22299682000118 Verificado.
+[20-10-2021 17:59:50] Cliente: 56550596149 Verificado.
+[20-10-2021 18:00:00] Cliente: 15176215187 Verificado.
+[20-10-2021 18:00:00] Programa finalizado.
+[20-10-2021 18:05:20] Programa iniciado... 
+[20-10-2021 18:05:37] Cliente: 22299682000118 Verificado.
+[20-10-2021 18:05:42] Cliente: 56550596149 Verificado.
+[20-10-2021 18:05:52] Cliente: 15176215187 Verificado.
+[20-10-2021 18:05:53] Programa finalizado.
+[20-10-2021 18:09:12] Error: C:\Users\italo.domingos\Desktop\Relatorio Enel.xlsx (O arquivo já está sendo usado por outro processo)
+[20-10-2021 18:09:44] Programa iniciado... 
+[20-10-2021 18:10:00] Cliente: 22299682000118 Verificado.
+[20-10-2021 18:10:04] Cliente: 56550596149 Verificado.
+[20-10-2021 18:10:14] Cliente: 15176215187 Verificado.
+[20-10-2021 18:10:14] Programa finalizado.
+[20-10-2021 18:11:36] Programa iniciado... 
+[20-10-2021 18:12:00] Cadastro 22299682000118 npossui fatura pendente
+[20-10-2021 18:12:00] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZTI03', ip: '192.168.2.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f79e3f0062f84b8101211aae0b625f6, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56695/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f79e3f0062f84b8101211aae0b625f6
+[20-10-2021 18:15:13] Programa iniciado... 
+[20-10-2021 18:15:29] Cliente: 22299682000118 Verificado.
+[20-10-2021 18:15:34] Cliente: 56550596149 Verificado.
+[20-10-2021 18:15:56] Cadastro 15176215187 npossui fatura pendente
+[20-10-2021 18:15:57] Programa finalizado.
+[20-10-2021 18:17:41] Programa iniciado... 
+[20-10-2021 18:17:56] Cliente: 22299682000118 Verificado.
+[20-10-2021 18:18:01] Cliente: 56550596149 Verificado.
+[20-10-2021 18:18:12] Cliente: 15176215187 Verificado.
+[20-10-2021 18:18:12] Programa finalizado.
+[20-10-2021 18:19:16] Error: C:\Users\italo.domingos\Desktop\Relatorio Enel.xlsx (O arquivo já está sendo usado por outro processo)
+[20-10-2021 18:19:25] Programa iniciado... 
+[20-10-2021 18:19:43] Cliente: 22299682000118 Verificado.
+[20-10-2021 18:19:49] Cliente: 56550596149 Verificado.
+[20-10-2021 18:20:00] Cliente: 15176215187 Verificado.
+[20-10-2021 18:20:00] Programa finalizado.
