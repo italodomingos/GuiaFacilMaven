@@ -24,16 +24,18 @@ public class SaneagoComands {
   
   private WebDriver wd;
   
-  public void faturaSaneago(String to, JTextArea jta) throws IOException {
+  public void faturaSaneago(File excel_file, JTextArea jta) throws IOException {
     Logs log = new Logs(jta);
     log.beginLog();
     this.wd = Tools.setPrefs();
     try {
-      List<Empresa> empresas = this.em.getCompaniesSaneago(jta);
+      List<Empresa> empresas = this.em.getCompaniesSaneago(jta, excel_file.getAbsolutePath());
       this.wd.manage().window().maximize();
-      this.wd.get("https://www.saneago.com.br/esi/esi/ECI548SegundaVia.zul");
+      this.wd.get("https://www.saneago.com.br/agencia-virtual/#/2a_via");
       for (Empresa empresa : empresas) {
-        WebDriverWait wait = new WebDriverWait(this.wd, 60L);
+        WebDriverWait wait = new WebDriverWait(this.wd, 20);
+        wait.until((Function)ExpectedConditions.presenceOfElementLocated(By.id("iframeConteudo")));
+        this.wd.switchTo().frame("iframeConteudo");
         wait.until((Function)ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class = 'z-intbox']")));
         List<WebElement> box = this.wd.findElements(By.xpath("//*[@class = 'z-intbox']"));
         ((WebElement)box.get(0)).sendKeys(new CharSequence[] { empresa.getContaDv().substring(0, empresa.getContaDv().length() - 1) });
@@ -54,7 +56,7 @@ public class SaneagoComands {
           this.wd.switchTo().frame(this.wd.findElement(By.className("z-iframe")));
           this.wd.findElement(By.id("open-button")).click();
           File fileFrom = new File(System.getProperty("user.home") + "\\Downloads\\relatorio.pdf");
-          File fileTo = new File(to + "\\Saneago" + empresa.getContaDv() + ".pdf");
+          File fileTo = new File(excel_file.getAbsoluteFile() + "\\Saneago" + empresa.getContaDv() + ".pdf");
           this.tools.saveFiles(fileFrom, fileTo);
           log.downloadedLog(empresa.getContaDv());
           this.wd.switchTo().defaultContent();

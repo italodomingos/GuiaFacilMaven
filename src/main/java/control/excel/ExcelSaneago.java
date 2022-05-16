@@ -19,9 +19,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelSaneago {
 
-    public List<Empresa> getCompaniesSaneago(JTextArea jta) throws FileNotFoundException, IOException {
+    public List<Empresa> getCompaniesSaneago(JTextArea jta, String filePath) throws FileNotFoundException, IOException {
         try {
-            File file = new File(System.getProperty("user.dir") + "\\planilhas\\CadastroContas.xlsx");
+            File file = new File(filePath);
             FileInputStream fis = new FileInputStream(file);
             XSSFWorkbook workBook = new XSSFWorkbook(fis);
             XSSFSheet sheet = workBook.getSheetAt(1);

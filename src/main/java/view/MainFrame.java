@@ -155,7 +155,7 @@ public final class MainFrame extends JFrame {
               public void run() {
                 SaneagoComands cmd2 = new SaneagoComands();
                 try {
-                  cmd2.faturaSaneago(file.getPath(), MainFrame.this.jtaActions);
+                  cmd2.faturaSaneago(file, MainFrame.this.jtaActions);
                 } catch (IOException ex) {
                   Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, (String)null, ex);
                 } 

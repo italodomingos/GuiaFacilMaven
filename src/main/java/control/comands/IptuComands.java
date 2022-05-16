@@ -18,6 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JTextArea;
 import logs.Logs;
+import model.DBCresponse;
 import model.Empresa;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -47,9 +48,14 @@ public class IptuComands {
     public void faturaIptu(File arquivoExcel, int indexDueDate, Date preferDueDate, int selectedFuntion) throws IOException, InterruptedException, ParseException, AWTException, DocumentException {
         Logs logs = new Logs(this.jta);
         CaptchaBreaker captcha = new CaptchaBreaker(this.jta);
+        DBCresponse dbcResponse = new DBCresponse();
+        
         logs.beginLog();
+        
         this.wd = Tools.setPrefs();
+        
         List<Empresa> empresas = new ExcelIptu().getCompaniesIptu(this.jta, arquivoExcel);
+        
         int i;
         try {
             for (int j = 0; j < empresas.size(); j++) {
@@ -62,7 +68,8 @@ public class IptuComands {
                         (new WebDriverWait(this.wd, 10L)).until(webDriver -> Boolean.valueOf(((JavascriptExecutor) webDriver).executeScript("return document.readyState", new Object[0]).equals("complete")));
                         List<WebElement> options = this.wd.findElements(By.tagName("option"));
                         ((WebElement) options.get(indexDueDate)).click();
-                        this.wd.findElement(By.xpath("//*[@id=\"id_txt_captcha\"]")).sendKeys(new CharSequence[]{(catpchaSession(captcha)).text});
+                        dbcResponse = captchaSolver(captcha);
+                        this.wd.findElement(By.id("g-recaptcha-response")).sendKeys(new CharSequence[]{(dbcResponse.getText())});
                         
                         if (!inscricaoCadastral.equals("0")) {
                             List<WebElement> expDates;
@@ -130,7 +137,7 @@ public class IptuComands {
                     } catch (UnhandledAlertException ex) {
                         ex.printStackTrace();
                         logs.setLog("Captcha incorreto");
-                        captcha.report_wrong();
+                        captcha.reportWrongCaptcha(dbcResponse.getCaptcha());
                         i = 1;
                         this.wd.findElement(By.name("insc")).clear();
                     }
@@ -144,11 +151,13 @@ public class IptuComands {
         this.wd.quit();
     }
 
-    public Captcha catpchaSession(CaptchaBreaker captcha) throws InterruptedException, AWTException, IOException, Exception {
-        WebElement imageElement = this.wd.findElement(By.id("id_img_captcha"));
-        File captchaFile = (File) imageElement.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(captchaFile, new File(System.getProperty("user.dir") + "/captcha/captcha.bmp"));
-        return captcha.solve(captchaFile);
+    public DBCresponse captchaSolver(CaptchaBreaker captcha) throws InterruptedException, AWTException, IOException, Exception {
+//        WebElement imageElement = this.wd.findElement(By.id("id_img_captcha"));
+//        File captchaFile = (File) imageElement.getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(captchaFile, new File(System.getProperty("user.dir") + "/captcha/captcha.bmp"));
+          String siteUrl = this.wd.getCurrentUrl();
+          String googleToken = this.wd.findElement(By.className("g-recaptcha")).getAttribute("data-sitekey");
+        return captcha.DBCApiSolver(googleToken, siteUrl);
     }
 
     public void closeExtraWindows() {

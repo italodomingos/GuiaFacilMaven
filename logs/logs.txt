@@ -140,3 +140,47 @@ Session ID: 7f79e3f0062f84b8101211aae0b625f6
 [20-10-2021 18:19:49] Cliente: 56550596149 Verificado.
 [20-10-2021 18:20:00] Cliente: 15176215187 Verificado.
 [20-10-2021 18:20:00] Programa finalizado.
+[06-05-2022 14:53:55] Programa iniciado... 
+[06-05-2022 14:54:13] Cliente: 51805529153 Verificado.
+[06-05-2022 14:54:15] Cadastro 16136942100 npossui fatura pendente
+[06-05-2022 14:54:15] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ITALO-DOMINGOS', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [440fd38a118f6f41111cd7e2c6e29cdb, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\italo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60268/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 440fd38a118f6f41111cd7e2c6e29cdb
+[06-05-2022 14:55:24] Programa iniciado... 
+[06-05-2022 14:55:37] Error: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ITALO-DOMINGOS', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e07243d8b20dafb8f0cc7704e7007ebc, findElement {using=xpath, value=//*[@class = 'z-intbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\italo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60305/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e07243d8b20dafb8f0cc7704e7007ebc
+[06-05-2022 15:07:18] Programa iniciado... 
+[06-05-2022 15:07:55] Error: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ITALO-DOMINGOS', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94226e6e28288dc5afef7ba9a2c1c349, findElement {using=xpath, value=//*[@class = 'z-intbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\italo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60790/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94226e6e28288dc5afef7ba9a2c1c349
+[06-05-2022 15:14:44] Programa iniciado... 
+[06-05-2022 15:14:50] Cadastro 22859756 npossui fatura pendente
+[06-05-2022 15:14:50] Error: No frame element found by name or id iframeConteudo
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ITALO-DOMINGOS', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+[16-05-2022 18:04:52] Programa iniciado... 
+[16-05-2022 18:04:59] Cadastro 22859756 npossui fatura pendente
+[16-05-2022 18:04:59] Error: No frame element found by name or id iframeConteudo
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ITALO-DOMINGOS', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+[16-05-2022 18:06:35] Programa iniciado... 
+[16-05-2022 18:06:40] Cadastro 22859756 npossui fatura pendente
+[16-05-2022 18:06:40] Error: No frame element found by name or id iframeConteudo
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'ITALO-DOMINGOS', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
