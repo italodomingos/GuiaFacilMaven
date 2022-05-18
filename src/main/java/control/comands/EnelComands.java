@@ -38,35 +38,46 @@ public class EnelComands {
     public void faturaEnel(File baseDadosExcel, JTextArea jta) throws IOException {
         Logs log = new Logs(jta);
         int rowCount = 1;
-        try (FileOutputStream outputStream = new FileOutputStream(baseDadosExcel.getAbsoluteFile().getParent() + "/Relatorio Enel.xlsx")) {
+        try ( FileOutputStream outputStream = new FileOutputStream(baseDadosExcel.getAbsoluteFile().getParent() + "/Relatorio Enel.xlsx")) {
             XSSFWorkbook workbook = new XSSFWorkbook();
             XSSFSheet sheet = inicializeWorkbook(workbook);
             log.beginLog();
             List<Empresa> empresas = this.em.getCompaniesEnel(jta, baseDadosExcel.getAbsolutePath());
             this.wd = Tools.setPrefs();
-            this.wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            //this.wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             try {
                 for (int i = 0; i < empresas.size(); i++) {
                     this.wd.get("https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx");
                     this.wd.manage().window().maximize();
-                    this.wd.findElement(By.id("CONTENT_Formulario_NumeroCliente")).sendKeys(new CharSequence[]{empresas.get(i).getUnidadeConsumidora()});
-                    this.wd.findElement(By.id("CONTENT_Formulario_Documento")).sendKeys(new CharSequence[]{empresas.get(i).getCnpj()});
+                    this.wd.findElement(By.id("CONTENT_Formulario_NumeroCliente")).sendKeys(empresas.get(i).getUnidadeConsumidora());
+                    this.wd.findElement(By.id("CONTENT_Formulario_Documento")).sendKeys(empresas.get(i).getCnpj());
                     this.wd.findElement(By.id("CONTENT_Formulario_Acessar")).click();
+                    Thread.sleep(1000);
                     try {
-                        WebDriverWait wait = new WebDriverWait(this.wd, Duration.ofSeconds(8));
-                        wait.until((Function) ExpectedConditions.visibilityOfElementLocated(By.className("bootstrap-dialog-footer-buttons")));
+                        WebDriverWait wait = new WebDriverWait(this.wd, Duration.ofSeconds(10));
+                        try {
+
+                            wait.until((Function) ExpectedConditions.visibilityOfElementLocated(By.className("bootstrap-dialog-footer-buttons")));
+
+                        } catch (Exception e) {
+
+                            log.setLog("Cliente: " + empresas.get(i).getCnpj() + " não encontrado.");
+                            continue;
+
+                        }
                         this.wd.switchTo().activeElement().findElement(By.className("bootstrap-dialog-footer-buttons")).findElement(By.tagName("button")).click();
                         wait.until((Function) ExpectedConditions.elementToBeClickable(By.id("CONTENT_Formulario_GridViewSegVia")));
                         WebElement table = this.wd.findElement(By.id("CONTENT_Formulario_GridViewSegVia"));
                         List<WebElement> allRows = table.findElements(By.tagName("tr"));
 
                         int sheetRow = 0;
-                        for (WebElement row : allRows) {
+                        for (int r = 0; r < allRows.size(); r++) {
                             XSSFRow xSSFRow = sheet.createRow(rowCount);
                             Cell sheetCell = xSSFRow.createCell(0);
                             sheetCell.setCellValue(empresas.get(i).getCnpj());
-                            List<WebElement> cells = row.findElements(By.tagName("td"));
+                            List<WebElement> cells = allRows.get(r).findElements(By.tagName("td"));
                             int columnCount = 1;
+
                             for (WebElement cell : cells) {
                                 if (cell.getAttribute("data-label") == null) {
                                     sheetCell = xSSFRow.createCell(columnCount++);
@@ -75,7 +86,8 @@ public class EnelComands {
 
                                 } else if (cell.getAttribute("data-label").equals("2ª VIA")) {
                                     String idElementoCheckbox = "CONTENT_Formulario_GridViewSegVia_CheckFatura_" + (sheetRow++);
-                                    ((JavascriptExecutor) this.wd).executeScript("$(\"#" + idElementoCheckbox + "\").prop(\"checked\", true);", new Object[0]);
+                                    ((JavascriptExecutor) this.wd).executeScript("document.getElementById('" + idElementoCheckbox + "').click()");
+                                    Thread.sleep(1500);
                                     this.wd.findElement(By.id("CONTENT_Formulario_CodigoBarras")).click();
                                     wait.until((Function) ExpectedConditions.visibilityOfElementLocated(By.id("CONTENT_Formulario_BarCode")));
                                     String codigoBarras = this.wd.findElement(By.id("CONTENT_Formulario_BarCode")).getText();
@@ -85,6 +97,10 @@ public class EnelComands {
                                     System.out.println("<<<<<<<Ajuste:" + ajustarCodigoBarras);
 
                                     sheetCell.setCellValue(ajustarCodigoBarras);
+                                    ((JavascriptExecutor) this.wd).executeScript("document.getElementById('" + idElementoCheckbox + "').click()");
+                                    Thread.sleep(1500);
+                                    table = this.wd.findElement(By.id("CONTENT_Formulario_GridViewSegVia"));
+                                    allRows = table.findElements(By.tagName("tr"));
                                     rowCount++;
 
                                 } else {
@@ -102,6 +118,7 @@ public class EnelComands {
                         this.wd.close();
                         log.notDownloadedLog(empresas.get(i).getCnpj());
                     }
+
                 }
             } catch (NoSuchElementException ex) {
                 ex.printStackTrace();
@@ -124,6 +141,7 @@ public class EnelComands {
             log.setLog(e);
             this.wd.quit();
         }
+        log.endLog();
     }
 
     public void autoWait() throws InterruptedException {

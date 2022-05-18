@@ -184,3 +184,450 @@ Driver info: driver.version: unknown
 Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
 System info: host: 'ITALO-DOMINGOS', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: unknown
+[17-05-2022 10:28:49] Programa iniciado... 
+[17-05-2022 10:29:21] Programa finalizado.
+[17-05-2022 10:54:14] Programa iniciado... 
+[17-05-2022 10:54:33] Cadastro  npossui fatura pendente
+[17-05-2022 10:54:33] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6079a98d43f9501d5b4f5e7ae3e7af4a, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62263/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6079a98d43f9501d5b4f5e7ae3e7af4a
+[17-05-2022 11:49:46] Programa iniciado... 
+[17-05-2022 11:50:08] Cadastro  npossui fatura pendente
+[17-05-2022 11:50:08] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0525ce129d6af9a4d5d88fe510e0d7a8, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58173/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0525ce129d6af9a4d5d88fe510e0d7a8
+[17-05-2022 11:57:58] Programa iniciado... 
+[17-05-2022 11:58:08] Error: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28481fda34d155ea79505f1a6e05c9c1, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53103/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28481fda34d155ea79505f1a6e05c9c1
+[17-05-2022 12:01:29] Programa iniciado... 
+[17-05-2022 12:01:56] Cadastro 51805529153 npossui fatura pendente
+[17-05-2022 12:01:56] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3475863247851d67134c59610ab5510, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53325/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3475863247851d67134c59610ab5510
+[17-05-2022 12:02:44] Programa iniciado... 
+[17-05-2022 12:03:03] Cadastro 51805529153 npossui fatura pendente
+[17-05-2022 12:03:03] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eef2dba69faeb5e6e749aaa90fdb2ff0, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53420}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53420/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eef2dba69faeb5e6e749aaa90fdb2ff0
+[17-05-2022 12:03:42] Programa iniciado... 
+[17-05-2022 12:03:58] Cadastro 51805529153 npossui fatura pendente
+[17-05-2022 12:03:58] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc5c93e298fce5de32492664faae843d, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53495/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc5c93e298fce5de32492664faae843d
+[17-05-2022 12:13:18] Programa iniciado... 
+[17-05-2022 12:13:37] Cadastro 51805529153 npossui fatura pendente
+[17-05-2022 12:13:37] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9affbc19328ba9430bde700f81b44163, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49679/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9affbc19328ba9430bde700f81b44163
+[17-05-2022 14:19:56] Error: C:\Users\italo.domingos\Downloads\Relatorio Enel.xlsx (O arquivo já está sendo usado por outro processo)
+[17-05-2022 14:20:21] Programa iniciado... 
+[17-05-2022 14:20:38] Cadastro 51805529153 npossui fatura pendente
+[17-05-2022 14:20:38] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1042e3651eb35129f075243b6e710e8d, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57715}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57715/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1042e3651eb35129f075243b6e710e8d
+[17-05-2022 14:29:49] Programa iniciado... 
+[17-05-2022 14:31:00] Cadastro 51805529153 npossui fatura pendente
+[17-05-2022 14:31:00] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11340ad5643e54f294bf7e4ed2703063, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58399}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58399/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 11340ad5643e54f294bf7e4ed2703063
+[17-05-2022 14:39:55] Programa iniciado... 
+[17-05-2022 14:40:12] Cadastro 51805529153 npossui fatura pendente
+[17-05-2022 14:40:12] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [303733482d9e7d50f05eebc815c80656, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58985/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 303733482d9e7d50f05eebc815c80656
+[17-05-2022 14:45:06] Programa iniciado... 
+[17-05-2022 14:45:24] Cadastro 51805529153 npossui fatura pendente
+[17-05-2022 14:45:24] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a54cba8164c8b4f65c10c97b569de320, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59275/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a54cba8164c8b4f65c10c97b569de320
+[17-05-2022 15:07:04] Error: Cannot get a NUMERIC value from a STRING cell
+[17-05-2022 15:07:00] Programa iniciado... 
+[17-05-2022 15:07:06] Error: Cannot invoke "java.util.List.iterator()" because "empresas" is null
+[17-05-2022 15:10:01] Error: Cannot get a NUMERIC value from a STRING cell
+[17-05-2022 15:09:57] Programa iniciado... 
+[17-05-2022 15:10:03] Error: Cannot invoke "java.util.List.iterator()" because "empresas" is null
+[17-05-2022 15:13:53] Error: Cannot get a NUMERIC value from a STRING cell
+[17-05-2022 15:13:49] Programa iniciado... 
+[17-05-2022 15:13:56] Error: Cannot invoke "java.util.List.iterator()" because "empresas" is null
+[17-05-2022 15:22:30] Programa iniciado... 
+[17-05-2022 15:22:37] Cadastro 24533530 npossui fatura pendente
+[17-05-2022 15:22:57] Error: Expected condition failed: waiting for presence of element located by: By.id: iframeConteudo (tried for 20 second(s) with 500 milliseconds interval)
+[17-05-2022 15:24:55] Programa iniciado... 
+[17-05-2022 15:25:11] Cadastro 24533530 npossui fatura pendente
+[17-05-2022 15:25:31] Error: Expected condition failed: waiting for presence of element located by: By.id: iframeConteudo (tried for 20 second(s) with 500 milliseconds interval)
+[17-05-2022 15:26:43] Programa iniciado... 
+[17-05-2022 15:26:50] Cadastro 24533530 npossui fatura pendente
+[17-05-2022 15:27:10] Error: Expected condition failed: waiting for presence of element located by: By.id: iframeConteudo (tried for 20 second(s) with 500 milliseconds interval)
+[17-05-2022 16:10:22] Programa iniciado... 
+[17-05-2022 16:11:03] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="963745eb3e30713faea0770bbacf2a37"></iframe> is not clickable at point (559, 605). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a81d6a0a1bdcc42d1d14ffa354be022, clickElement {id=e87a7cf2-a808-4de1-8a4c-da2daff1a8df}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63641/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4a81d6a0a1bdcc42d1d14ffa354be022)] -> xpath: //*[@value = 'A']]
+Session ID: 4a81d6a0a1bdcc42d1d14ffa354be022
+[17-05-2022 16:18:57] Programa iniciado... 
+[17-05-2022 16:19:06] Cadastro 24533530 npossui fatura pendente
+[17-05-2022 16:19:27] Error: Expected condition failed: waiting for presence of element located by: By.id: iframeConteudo (tried for 20 second(s) with 500 milliseconds interval)
+[17-05-2022 16:21:13] Programa iniciado... 
+[17-05-2022 16:21:27] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="c6ee5baf2c9cc2d3720290c3fde05f7f"></iframe> is not clickable at point (559, 605). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c5136810e45de6ce3aec551c06bc7eb, clickElement {id=478bba60-8fec-46b8-985f-0474fd3bbabf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64332/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1c5136810e45de6ce3aec551c06bc7eb)] -> xpath: //*[@value = 'A']]
+Session ID: 1c5136810e45de6ce3aec551c06bc7eb
+[17-05-2022 16:32:32] Programa iniciado... 
+[17-05-2022 16:32:46] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="2999aa30f107e21602c493abe38a88ff"></iframe> is not clickable at point (815, 596). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c026a5227544892e3a54981ce78a3b1, clickElement {id=3047ea82-d08f-4a58-8efd-278128156d27}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65065/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9c026a5227544892e3a54981ce78a3b1)] -> xpath: //*[contains(text(),'Imprimir')]]
+Session ID: 9c026a5227544892e3a54981ce78a3b1
+[17-05-2022 16:44:45] Programa iniciado... 
+[17-05-2022 16:44:59] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="533e0fbf9a7097b5e357192895ec037c"></iframe> is not clickable at point (815, 596). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df42856a7b33f8d62ff27191b9991fa2, clickElement {id=cca67e96-a52f-4d40-9e78-a1a29e93ec45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59347/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (df42856a7b33f8d62ff27191b9991fa2)] -> xpath: //*[contains(text(),'Imprimir')]]
+Session ID: df42856a7b33f8d62ff27191b9991fa2
+[17-05-2022 16:49:43] Programa iniciado... 
+[17-05-2022 16:49:56] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="93f229b71d9ce01b14b85259b6e7ae5e"></iframe> is not clickable at point (815, 596). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b87e5692b081b21fe6da7c47f9491478, clickElement {id=e5fac276-5f61-4c1a-9dd4-614087bbe0c5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59653/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b87e5692b081b21fe6da7c47f9491478)] -> xpath: //*[contains(text(),'Imprimir')]]
+Session ID: b87e5692b081b21fe6da7c47f9491478
+[17-05-2022 16:50:56] Programa iniciado... 
+[17-05-2022 16:51:10] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="9f9971307a1c8f80457bc6c8c2a8c838"></iframe> is not clickable at point (815, 596). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd1df9fe80caf4ad68b049859cc54ba1, clickElement {id=d916c117-5d7e-42e1-b606-5e31cdb49e94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59760/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bd1df9fe80caf4ad68b049859cc54ba1)] -> xpath: //*[contains(text(),'Imprimir')]]
+Session ID: bd1df9fe80caf4ad68b049859cc54ba1
+[17-05-2022 16:52:51] Programa iniciado... 
+[17-05-2022 16:53:08] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="f7c48ac61c19ca1af79834bc16110899"></iframe> is not clickable at point (815, 540). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49f4defc666a759a41e123e681957355, clickElement {id=e0168f05-2fc8-4717-8444-2b8769fa6585}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59927/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (49f4defc666a759a41e123e681957355)] -> xpath: //*[contains(text(),'Imprimir')]]
+Session ID: 49f4defc666a759a41e123e681957355
+[17-05-2022 16:57:02] Programa iniciado... 
+[17-05-2022 16:57:16] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="f7dbc49e2cee8dcbe36382e9c394711d"></iframe> is not clickable at point (815, 596). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d15db2c2057892507223855a27007c0d, clickElement {id=03dfad16-a5b1-43d6-9977-812c6f4da0ad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d15db2c2057892507223855a27007c0d)] -> xpath: //*[contains(text(),'Imprimir')]]
+Session ID: d15db2c2057892507223855a27007c0d
+[17-05-2022 16:58:38] Programa iniciado... 
+[17-05-2022 16:58:54] Cadastro 24533530 npossui fatura pendente
+[17-05-2022 16:59:14] Error: Expected condition failed: waiting for presence of element located by: By.id: iframeConteudo (tried for 20 second(s) with 500 milliseconds interval)
+[17-05-2022 17:00:53] Programa iniciado... 
+[17-05-2022 17:01:09] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="4773ed9eb75b79ad306c7cf02c641cf8"></iframe> is not clickable at point (815, 596). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96321e05e5ef97c0ad10328c040df753, clickElement {id=7cb9fcf7-e587-44d1-81ca-888e2d34d406}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60459}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60459/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (96321e05e5ef97c0ad10328c040df753)] -> xpath: //*[contains(text(),'Imprimir')]]
+Session ID: 96321e05e5ef97c0ad10328c040df753
+[17-05-2022 17:04:49] Programa iniciado... 
+[17-05-2022 17:05:07] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="899fac308e4ea8f31ef23a88e98fb6b9"></iframe> is not clickable at point (815, 596). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22da78f6bf066cee0ef02b80ec0e3dd6, clickElement {id=497f964f-a2ad-48ba-b1f9-53716ae4255a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60714/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (22da78f6bf066cee0ef02b80ec0e3dd6)] -> xpath: //*[contains(text(),'Imprimir')]]
+Session ID: 22da78f6bf066cee0ef02b80ec0e3dd6
+[17-05-2022 17:06:28] Programa iniciado... 
+[17-05-2022 17:06:50] Programa finalizado.
+[17-05-2022 17:16:57] Programa iniciado... 
+[17-05-2022 17:17:14] Programa finalizado.
+[17-05-2022 17:53:50] Programa iniciado... 
+[17-05-2022 17:54:09] Programa finalizado.
+[18-05-2022 10:46:31] Programa iniciado... 
+[18-05-2022 10:46:50] Error: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30be5b6b7a69c349894a9bba54b0e574, get {url=https://www.saneago.com.brhttps://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51949/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30be5b6b7a69c349894a9bba54b0e574
+[18-05-2022 10:47:16] Programa iniciado... 
+[18-05-2022 10:47:30] Error: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15e61793095cc96a75c7965d83b92c66, get {url=https://www.saneago.com.brhttps://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52021/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 15e61793095cc96a75c7965d83b92c66
+[18-05-2022 10:57:44] Programa iniciado... 
+[18-05-2022 10:58:01] Error: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97af67a017358a2ed1601b995ecea993, get {url=https://www.saneago.com.brhttps://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52495/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97af67a017358a2ed1601b995ecea993
+[18-05-2022 11:05:26] Programa iniciado... 
+[18-05-2022 11:05:47] Programa finalizado.
+[18-05-2022 11:11:41] Programa iniciado... 
+[18-05-2022 11:12:02] Error: Cannot create directory 'C:\Users\italo.domingos\Downloads\CadastroContas.xlsx'.
+[18-05-2022 11:13:16] Programa iniciado... 
+[18-05-2022 11:13:37] Error: Cannot create directory 'C:\Users\italo.domingos\Downloads\CadastroContas.xlsx'.
+[18-05-2022 11:20:18] Programa iniciado... 
+[18-05-2022 11:20:51] Programa finalizado.
+[18-05-2022 11:38:42] Programa iniciado... 
+[18-05-2022 11:38:54] Error: element click intercepted: Element <button type="button" id="pU6Qn5" style="width:110px;" class="z-button">...</button> is not clickable at point (606, 118). Other element would receive the click: <table id="pU6Q5-cave" width="100%" style="table-layout:fixed;">...</table>
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0219ce89139f8bdffd91ba8ac0787596, clickElement {id=1302ffb5-5f80-4e5b-ad34-b3b0fc0c996a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53821/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0219ce89139f8bdffd91ba8ac0787596)] -> xpath: //*[contains(text(),'Cancelar')]]
+Session ID: 0219ce89139f8bdffd91ba8ac0787596
+[18-05-2022 15:54:45] Programa iniciado... 
+[18-05-2022 15:54:58] Cadastro 24533530 npossui fatura pendente
+[18-05-2022 15:55:06] Cadastro 23218762 npossui fatura pendente
+[18-05-2022 15:55:23] Programa finalizado.
+[18-05-2022 15:58:02] Programa iniciado... 
+[18-05-2022 15:58:14] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="dbc75222fa838631e2f47d64884900e7"></iframe> is not clickable at point (269, 212). Other element would receive the click: <a class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-accent text-weight-medium text-subtitle2" tabindex="0" href="#/faturaAnaliticaOrgaoPublico">...</a>
+  (Session info: headless chrome=101.0.4951.67)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d38fdaf5dc26580bfc877142c6991b5, clickElement {id=bf7b01f2-9f40-4ad5-bdd2-e7f1a571ae2f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56401/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7d38fdaf5dc26580bfc877142c6991b5)] -> xpath: //*[@class = 'z-button']]
+Session ID: 7d38fdaf5dc26580bfc877142c6991b5
+[18-05-2022 15:58:55] Programa iniciado... 
+[18-05-2022 15:59:01] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="656434c6ce0862c067a801d5cbcde073"></iframe> is not clickable at point (269, 212). Other element would receive the click: <a class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-accent text-weight-medium text-subtitle2" tabindex="0" href="#/faturaAnaliticaOrgaoPublico">...</a>
+  (Session info: headless chrome=101.0.4951.67)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47d18e298552b03b20fe56fad893d003, clickElement {id=7483f8ba-96d3-4d89-a60e-a580317f8c4b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56448}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56448/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (47d18e298552b03b20fe56fad893d003)] -> xpath: //*[@class = 'z-button']]
+Session ID: 47d18e298552b03b20fe56fad893d003
+[18-05-2022 15:59:42] Programa iniciado... 
+[18-05-2022 16:00:12] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="a5c0bd744e96fbe781214c45e0c0ecf3"></iframe> is not clickable at point (930, 588). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88247e4d9da65e1f9d4af145e4393c8a, clickElement {id=a9eb1a51-1289-4a41-91b3-83f6477bbc36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56496/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (88247e4d9da65e1f9d4af145e4393c8a)] -> xpath: //*[contains(text(),'Cancelar')]]
+Session ID: 88247e4d9da65e1f9d4af145e4393c8a
+[18-05-2022 16:02:04] Programa iniciado... 
+[18-05-2022 16:02:35] Error: element click intercepted: Element <iframe id="iframeConteudo" src="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" cd_frame_id_="807aefa5f62ecc437572614f332c3a1b" z_xsrc="https://www.saneago.com.br/esi/esi/ESI548SegundaVia.zul" z_xurl="/esi/esi/ESI548SegundaVia.zul"></iframe> is not clickable at point (930, 588). Other element would receive the click: <div class="q-card__section q-card__section--vert row items-center no-wrap bg-white text-white q-pl-xl q-pr-xl" style="background-color: rgb(232, 240, 246) !important; font-size: 16px;">...</div>
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a755f60363701b91eddba77051807ab, clickElement {id=a067abe6-72fe-4d6f-ae45-55ca87406d9d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56562/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8a755f60363701b91eddba77051807ab)] -> xpath: //*[contains(text(),'Cancelar')]]
+Session ID: 8a755f60363701b91eddba77051807ab
+[18-05-2022 16:05:47] Programa iniciado... 
+[18-05-2022 16:06:19] Cadastro 51805529153 npossui fatura pendente
+[18-05-2022 16:06:20] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfcd5e3d572aad1b65c324722f494a99, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56635/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cfcd5e3d572aad1b65c324722f494a99
+[18-05-2022 16:07:36] Programa iniciado... 
+[18-05-2022 16:08:05] Cadastro 23218762 npossui fatura pendente
+[18-05-2022 16:08:20] Programa finalizado.
+[18-05-2022 16:09:02] Programa iniciado... 
+[18-05-2022 16:09:46] Cadastro 51805529153 npossui fatura pendente
+[18-05-2022 16:09:47] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e90bec738f961454027c594152659d6d, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56861/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e90bec738f961454027c594152659d6d
+[18-05-2022 16:13:46] Programa iniciado... 
+[18-05-2022 16:14:01] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:14:02] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [744883524319f9780cfad4bc5cd4cac6, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57013/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 744883524319f9780cfad4bc5cd4cac6
+[18-05-2022 16:20:06] Programa iniciado... 
+[18-05-2022 16:20:29] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:20:30] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d7400305f9cbd294659d7d6858695f3, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57139/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d7400305f9cbd294659d7d6858695f3
+[18-05-2022 16:22:43] Programa iniciado... 
+[18-05-2022 16:22:54] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:22:55] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [037d4d153563ee5c15aa5196424cc408, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57201/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 037d4d153563ee5c15aa5196424cc408
+[18-05-2022 16:23:36] Programa iniciado... 
+[18-05-2022 16:23:47] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:23:48] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84b04b44e699ebe60f6bf52365558620, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57256/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84b04b44e699ebe60f6bf52365558620
+[18-05-2022 16:24:53] Programa iniciado... 
+[18-05-2022 16:25:04] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:25:05] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0b8b2227dc18de968afbbd5b678554e, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57311/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c0b8b2227dc18de968afbbd5b678554e
+[18-05-2022 16:25:49] Programa iniciado... 
+[18-05-2022 16:26:06] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:26:07] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ea9f7e7bb1911366563f2a4cc9888d3, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57365/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ea9f7e7bb1911366563f2a4cc9888d3
+[18-05-2022 16:26:35] Programa iniciado... 
+[18-05-2022 16:27:15] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:27:16] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33b5a536530a501d86d916f399c1e3b2, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57424/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b5a536530a501d86d916f399c1e3b2
+[18-05-2022 16:29:11] Programa iniciado... 
+[18-05-2022 16:30:01] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:30:02] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c290d50f7e89b595c434c20d84d37e14, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57496/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c290d50f7e89b595c434c20d84d37e14
+[18-05-2022 16:42:46] Programa iniciado... 
+[18-05-2022 16:43:01] Cadastro 51805529153 não possui fatura pendente
+[18-05-2022 16:43:01] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6264df52791a45b68c941cc1756206a, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57976/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d6264df52791a45b68c941cc1756206a
+[18-05-2022 16:44:48] Programa iniciado... 
+[18-05-2022 16:45:06] Cliente: 51805529153 Verificado.
+[18-05-2022 16:45:08] Cadastro 16136942100 não possui fatura pendente
+[18-05-2022 16:45:09] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa5c76d012b4d01e70ee7e1b01cf0e06, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58111/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa5c76d012b4d01e70ee7e1b01cf0e06
+[18-05-2022 16:52:37] Programa iniciado... 
+[18-05-2022 16:53:00] Cliente: 51805529153 Verificado.
+[18-05-2022 16:53:03] Cadastro 16136942100 não possui fatura pendente
+[18-05-2022 16:53:03] Error: invalid session id
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'BBMTZQD02', ip: '192.168.2.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20d7d8da0a6d586439700292bbe982a1, get {url=https://www.eneldistribuicao.com.br/go/LoginAcessoRapidoPagamento.aspx}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ITALO~1.DOM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58453/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 20d7d8da0a6d586439700292bbe982a1
+[18-05-2022 16:54:33] Programa iniciado... 
+[18-05-2022 16:54:52] Cliente: 51805529153 Verificado.
+[18-05-2022 16:54:54] Cliente: 16136942100 não encontrado.
+[18-05-2022 16:54:58] Cliente: 34987614120 Verificado.
+[18-05-2022 16:54:58] Programa finalizado.

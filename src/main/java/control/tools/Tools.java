@@ -1,10 +1,6 @@
 package control.tools;
 
-import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
-import com.itextpdf.text.Image;
-import com.itextpdf.text.PageSize;
-import com.itextpdf.text.pdf.PdfWriter;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -16,12 +12,15 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Tools {
 
     public static WebDriver setPrefs() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
+        //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
+        //options.addArguments("--headless");
         options.addArguments(new String[]{"start-maximized"});
         options.setCapability("acceptSslCerts", true);
         options.setCapability("goog:chromeOptions", options);
@@ -38,7 +37,7 @@ public class Tools {
             saveFile.delete();
         }
         while (!tempHtml.exists() || !tempHtml.canExecute()) {
-            System.out.println("Arquivo html ainda nbaixado");
+            System.out.println("Arquivo html ainda não baixado");
             Thread.sleep(500);
         }
 
@@ -73,6 +72,10 @@ public class Tools {
         Image image = Image.getInstance(imagePath);
         document.add(image);
         document.close();*/
+    }
+
+    public static String refactorCpfCnpj(String cpfCnpj) {
+        return cpfCnpj.replace("-", "").replace(".", "").replace("/", "");
     }
 
 }

@@ -1,5 +1,6 @@
 package control.excel;
 
+import control.tools.Tools;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -42,15 +43,16 @@ public class ExcelEnel {
 
                             switch (cell.getColumnIndex()) {
                                 case 0:
-                                    empresa.setCnpj((new BigDecimal(cell.getNumericCellValue())).toPlainString());
+                                    empresa.setCnpj(Tools.refactorCpfCnpj((new BigDecimal(cell.getNumericCellValue())).toPlainString()));
                                 case 1:
                                     empresa.setUnidadeConsumidora((new BigDecimal(cell.getNumericCellValue())).toPlainString());
                             }
 
                         }
                     }
-                    //i++;
-                    empresas.add(empresa);
+                    if (empresa.getCnpj() != null) {
+                        empresas.add(empresa);
+                    }
                 }
 
             }

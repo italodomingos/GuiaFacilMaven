@@ -81,8 +81,8 @@ public final class Logs {
   
   public void notDownloadedLog(String cpfCnpj) throws IOException {
     this.data = new Date();
-    this.bw.write("[" + this.dt.format(this.data) + "] Cadastro " + cpfCnpj + " npossui fatura pendente");
+    this.bw.write("[" + this.dt.format(this.data) + "] Cadastro " + cpfCnpj + " não possui fatura pendente");
     this.bw.newLine();
-    this.jta.append("[" + this.dt.format(this.data) + "] Cadastro " + cpfCnpj + " npossui fatura pendente\n");
+    this.jta.append("[" + this.dt.format(this.data) + "] Cadastro " + cpfCnpj + " não possui fatura pendente\n");
   }
 }

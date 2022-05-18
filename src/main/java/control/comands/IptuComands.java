@@ -30,21 +30,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class IptuComands {
-
+    
     private final String IPTU_URL = "https://www.goiania.go.gov.br/sistemas/scarr/asp/scarr33000f0.asp";
-
+    
     private final Tools tools = new Tools();
-
+    
     private WebDriver wd;
-
+    
     private JTextArea jta;
-
+    
     private int helper = 0;
-
+    
     public IptuComands(JTextArea jta) {
         this.jta = jta;
     }
-
+    
     public void faturaIptu(File arquivoExcel, int indexDueDate, Date preferDueDate, int selectedFuntion) throws IOException, InterruptedException, ParseException, AWTException, DocumentException {
         Logs logs = new Logs(this.jta);
         CaptchaBreaker captcha = new CaptchaBreaker(this.jta);
@@ -69,7 +69,8 @@ public class IptuComands {
                         List<WebElement> options = this.wd.findElements(By.tagName("option"));
                         ((WebElement) options.get(indexDueDate)).click();
                         dbcResponse = captchaSolver(captcha);
-                        this.wd.findElement(By.id("g-recaptcha-response")).sendKeys(new CharSequence[]{(dbcResponse.getText())});
+                        JavascriptExecutor js = (JavascriptExecutor) this.wd;
+                        js.executeScript("document.getElementById('g-recaptcha-response').innerHTML='" + dbcResponse.getText() + "'");
                         
                         if (!inscricaoCadastral.equals("0")) {
                             List<WebElement> expDates;
@@ -105,7 +106,7 @@ public class IptuComands {
                                             logs.downloadedLog(inscricaoCadastral + "-" + x);
                                             this.wd.close();
                                             this.wd.switchTo().window(windowBefore);
-                                            (new WebDriverWait(this.wd, 10L)).until(webDriver -> Boolean.valueOf(((JavascriptExecutor) webDriver).executeScript("return document.readyState", new Object[0]).equals("complete")));
+                                            (new WebDriverWait(this.wd, 10)).until(webDriver -> Boolean.valueOf(((JavascriptExecutor) webDriver).executeScript("return document.readyState", new Object[0]).equals("complete")));
                                         }
                                     }
                                     if (this.helper == 0) {
@@ -142,6 +143,7 @@ public class IptuComands {
                         this.wd.findElement(By.name("insc")).clear();
                     }
                 } while (i == 1);
+                logs.setLog("Cliente " + inscricaoCadastral + " verificado");
             }
         } catch (Exception ex) {
             logs.setLog(ex);
@@ -150,16 +152,16 @@ public class IptuComands {
         logs.endLog();
         this.wd.quit();
     }
-
+    
     public DBCresponse captchaSolver(CaptchaBreaker captcha) throws InterruptedException, AWTException, IOException, Exception {
 //        WebElement imageElement = this.wd.findElement(By.id("id_img_captcha"));
 //        File captchaFile = (File) imageElement.getScreenshotAs(OutputType.FILE);
 //        FileUtils.copyFile(captchaFile, new File(System.getProperty("user.dir") + "/captcha/captcha.bmp"));
-          String siteUrl = this.wd.getCurrentUrl();
-          String googleToken = this.wd.findElement(By.className("g-recaptcha")).getAttribute("data-sitekey");
+        String siteUrl = this.wd.getCurrentUrl();
+        String googleToken = this.wd.findElement(By.className("g-recaptcha")).getAttribute("data-sitekey");
         return captcha.DBCApiSolver(googleToken, siteUrl);
     }
-
+    
     public void closeExtraWindows() {
         String windowBefore = this.wd.getWindowHandle();
         if (this.wd.getWindowHandles().size() > 1) {
@@ -170,5 +172,5 @@ public class IptuComands {
             this.wd.switchTo().window(windowBefore);
         }
     }
-
+    
 }
