@@ -21,7 +21,12 @@ public class Tools {
         //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         //options.addArguments("--headless");
+        
         options.addArguments(new String[]{"start-maximized"});
+//        options.setCapability("download.default_directory", "C:/Users/XXXX/Desktop");
+        options.setCapability("download.prompt_for_download", false);
+        options.setCapability("download.directory_upgrade", true);
+        options.setCapability("plugins.always_open_pdf_externally", true);
         options.setCapability("acceptSslCerts", true);
         options.setCapability("goog:chromeOptions", options);
         return (WebDriver) new ChromeDriver(options);
