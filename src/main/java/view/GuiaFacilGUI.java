@@ -10,7 +10,6 @@ import control.comands.EnelComands;
 import control.comands.IptuComands;
 import control.comands.SaneagoComands;
 import control.dueDate.DueDate;
-import dev.botcity.maestro_sdk.BotExecutor;
 import java.awt.AWTException;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -105,7 +104,7 @@ public class GuiaFacilGUI extends javax.swing.JFrame {
                 case 2:
                     this.saneagoThread = new Thread() {
                         public void run() {
-                        BotExecutor.run(new SaneagoComands(GuiaFacilGUI.this.jtaActions, file), args);
+                        new SaneagoComands(GuiaFacilGUI.this.jtaActions, file);
                         }
                         
                     };

@@ -38,7 +38,8 @@ public class EnelComands {
     public void faturaEnel(File baseDadosExcel, JTextArea jta) throws IOException {
         Logs log = new Logs(jta);
         int rowCount = 1;
-        try ( FileOutputStream outputStream = new FileOutputStream(baseDadosExcel.getAbsoluteFile().getParent() + "/Relatorio Enel.xlsx")) {
+        String caminhoExcel = baseDadosExcel.getAbsoluteFile().getParent() + "/Relatorio Enel.xlsx";
+        try ( FileOutputStream outputStream = new FileOutputStream(caminhoExcel)) {
             XSSFWorkbook workbook = new XSSFWorkbook();
             XSSFSheet sheet = inicializeWorkbook(workbook);
             log.beginLog();
@@ -136,6 +137,7 @@ public class EnelComands {
             workbook.write(outputStream);
             log.endLog();
             this.wd.quit();
+            JOptionPane.showMessageDialog(null, "Relatório salvo em:" + caminhoExcel);
         } catch (Exception e) {
             e.printStackTrace();
             log.setLog(e);

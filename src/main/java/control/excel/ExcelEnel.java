@@ -43,9 +43,18 @@ public class ExcelEnel {
 
                             switch (cell.getColumnIndex()) {
                                 case 0:
+                                    try {
                                     empresa.setCnpj(Tools.refactorCpfCnpj((new BigDecimal(cell.getNumericCellValue())).toPlainString()));
+                                } catch (Exception e) {
+                                    empresa.setCnpj(Tools.refactorCpfCnpj((new BigDecimal(cell.getStringCellValue())).toPlainString()));
+                                }
+
                                 case 1:
+                                    try {
                                     empresa.setUnidadeConsumidora((new BigDecimal(cell.getNumericCellValue())).toPlainString());
+                                } catch (Exception e) {
+                                    empresa.setUnidadeConsumidora((new BigDecimal(cell.getStringCellValue())).toPlainString());
+                                }
                             }
 
                         }

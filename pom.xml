@@ -41,18 +41,6 @@
             <version>2.11.0</version>
         </dependency>
         
-                <dependency>
-            <groupId>com.synthetica</groupId>
-            <artifactId>synthetica</artifactId>
-            <version>1.0</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>com.synthetica.plain</groupId>
-            <artifactId>syntheticaPlain</artifactId>
-            <version>1.0</version>
-        </dependency>
-        
         <dependency>
             <groupId>com.formdev</groupId>
             <artifactId>flatlaf</artifactId>
@@ -84,36 +72,6 @@
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
-        </dependency>
-    
-        <dependency>
-            <groupId>org.marvinproject</groupId>
-            <artifactId>MarvinFramework</artifactId>
-            <version>2.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.marvinproject</groupId>
-            <artifactId>MarvinPlugins</artifactId>
-            <version>2.0</version>
-        </dependency>
-		
-        <dependency>
-            <groupId>dev.botcity</groupId>
-            <artifactId>botcity-framework-core</artifactId>
-            <version>1.3.0</version>
-        </dependency>
-    
-        <dependency>
-            <groupId>dev.botcity</groupId>
-            <artifactId>maestro-sdk</artifactId>
-            <version>1.2.3</version>
-        </dependency>
-		
-        <dependency>
-            <groupId>dev.botcity</groupId>
-            <artifactId>BotChromeSDK</artifactId>
-            <version>1.0</version>
         </dependency>
 		
         <dependency>

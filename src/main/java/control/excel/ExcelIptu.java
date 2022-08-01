@@ -25,9 +25,9 @@ public class ExcelIptu {
             XSSFWorkbook workBook = new XSSFWorkbook(fis);
             XSSFSheet sheet = workBook.getSheetAt(2);
             Iterator<Row> rowIterator = sheet.iterator();
-            List<Empresa> empresas = new ArrayList<Empresa>(); 
+            List<Empresa> empresas = new ArrayList<Empresa>();
             //Empresas[] empresas = new Empresas[sheet.getLastRowNum()];
-            
+
             //int i = 0;
             while (rowIterator.hasNext()) {
                 Row row = rowIterator.next();
@@ -41,10 +41,14 @@ public class ExcelIptu {
                             switch (cell.getColumnIndex()) {
                                 case 0:
                                     Empresa empresa = new Empresa();
-                                    empresa.setIncricaoCadastral((new BigDecimal(cell.getNumericCellValue())).toPlainString());
+                                    try {
+                                        empresa.setIncricaoCadastral((new BigDecimal(cell.getNumericCellValue())).toPlainString());
+                                    } catch (Exception e) {
+                                        empresa.setIncricaoCadastral((new BigDecimal(cell.getStringCellValue())).toPlainString());
+                                    }
                                     empresas.add(empresa);
-                                    //empresas[i].setIncricaoCadastral((new BigDecimal(cell.getNumericCellValue())).toPlainString());
-                                    //i++;
+                                //empresas[i].setIncricaoCadastral((new BigDecimal(cell.getNumericCellValue())).toPlainString());
+                                //i++;
                             }
                         }
 
@@ -54,7 +58,7 @@ public class ExcelIptu {
             System.out.println("Quantidade de linhas na tabela: " + empresas.size());
             fis.close();
             return empresas;
-            
+
         } catch (Exception ex) {
             (new Logs(jta)).setLog(ex);
             return null;

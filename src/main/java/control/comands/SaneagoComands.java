@@ -3,9 +3,6 @@ package control.comands;
 import control.captcha.CaptchaBreaker;
 import control.excel.ExcelSaneago;
 import control.tools.Tools;
-import dev.botcity.framework.bot.WebBot;
-import dev.botcity.maestro_sdk.runner.BotExecution;
-import dev.botcity.maestro_sdk.runner.RunnableAgent;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -28,7 +25,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SaneagoComands extends WebBot implements RunnableAgent {
+public class SaneagoComands {
 
     private JTextArea jta;
 
@@ -38,14 +35,12 @@ public class SaneagoComands extends WebBot implements RunnableAgent {
         try {
             this.jta = jta;
             this.excelFile = excelFile;
-            setResourceClassLoader(this.getClass().getClassLoader());
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    @Override
-    public void action(BotExecution botExecution) {
+    public void action() {
         Logs log;
         try {
             log = new Logs(this.jta);
@@ -57,7 +52,7 @@ public class SaneagoComands extends WebBot implements RunnableAgent {
             try {
                 List<Empresa> empresas = em.getCompaniesSaneago(jta, excelFile.getAbsolutePath());
                 wd.manage().window().maximize();
-                
+
                 for (Empresa empresa : empresas) {
                     wd.get("https://www.saneago.com.br/agencia-virtual/#/2a_via");
                     WebDriverWait wait = new WebDriverWait(wd, 20);
